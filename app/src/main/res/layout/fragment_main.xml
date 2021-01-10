@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_fragment"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.MainFragment">
+
+    <TextView
+        android:id="@+id/hours_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Часы" />
+
+    <TextView
+        android:id="@+id/minutes_TV"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Минуты" />
+
+    <TextView
+        android:id="@+id/seconds_TV"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Секунды" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text" />
+
+</LinearLayout>
